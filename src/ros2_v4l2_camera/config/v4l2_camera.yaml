@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/video2"
+    pixel_format: "UYVY"
+    output_encoding: "rgb8"
+    image_size: [1920, 1536]
+    camera_frame_id: "camera_frame"

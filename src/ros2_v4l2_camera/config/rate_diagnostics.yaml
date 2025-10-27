@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    min_ok_rate: 25.0
+    max_ok_rate: 35.0
+    min_warn_rate: 20.0
+    max_warn_rate: 40.0
+    observed_frames_transition: 3
