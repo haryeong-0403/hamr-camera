@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>hamr_camera_preprocess_msgs</name>
+  <version>0.0.1</version>
+  <description>Message definitions for HAMR camera preprocess</description>
+
+  <maintainer email="nvidia@todo.todo">nvidia</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- rosidl: build-time code generation -->
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- rosidl: runtime for generated msgs -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- message field deps -->
+  <depend>builtin_interfaces</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- IMPORTANT: mark this package as an interface package -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

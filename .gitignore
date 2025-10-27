@@ -1,0 +1,33 @@
+# ROS2/colcon
+build/
+install/
+log/
+.colcon*
+.colcon_install_layout
+
+# CMake / compile artifacts
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# Virtual env / env files
+.venv/
+env/
+*.env
+
+# OS
+.DS_Store
+
+# Bags & large run files (원하면 지우지 말고 보관할 수 있음)
+*.db3
+*.mcap
+rosbag*/*
