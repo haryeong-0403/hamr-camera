@@ -27,6 +27,8 @@ setup(
             'detect_image = hamr_camera_preprocess.detect_image:main',
             'lidar_camera_fusion = hamr_camera_preprocess.lidar_camera_fusion:main',
             'lidar_pointlcoud_sub = hamr_camera_preprocess.lidar_pointlcoud_sub:main',
+            'gstreamer = hamr_camera_preprocess.gstreamer:main',
+            'camera_selector_node = hamr_camera_preprocess.camera_selector_node:main',
         ],
     },
 )
